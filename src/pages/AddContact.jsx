@@ -54,7 +54,8 @@ const AddContact = () => {
                 type="text"
                 placeholder="Enter Name"
                 className="w-full p-3 text-lg text-red-700 font-bold rounded-md bg-white focus:ring-4 focus:ring-red-300 transition duration-300 outline-none"
-              />
+                />
+               
 
             </div>
 
