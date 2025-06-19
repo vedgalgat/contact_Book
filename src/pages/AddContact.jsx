@@ -28,12 +28,8 @@ const AddContact = () => {
         color:"white"  
       }
     })
-  
-
-
-  }
-
-    return (
+   }
+   return (
       <>
 
         <div className="mx-auto my-20 px-10 py-10 w-[90%] sm:w-[60%] md:w-[40%] bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 border border-red-700 shadow-2xl rounded-2xl">
