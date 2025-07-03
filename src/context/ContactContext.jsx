@@ -17,6 +17,16 @@ export const ContactdataProvider = ({ children }) => {
   useEffect(()=>{
     sessionStorage.setItem("ved",JSON.stringify(data))
 
+
+
+
+
+
+
+
+
+
+    
   },[data])
   
 

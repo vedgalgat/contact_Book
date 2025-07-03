@@ -89,7 +89,7 @@ const handleEdit = (contactToEdit) => {
         </div>
       )}
 
-      {/* Contact Grid */}
+     
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5  gap-y-10 w-full">
         {data.length === 0 ? (
           <p className="col-span-full text-center text-red-800 text-2xl animate-bounce">
@@ -128,8 +128,8 @@ const handleEdit = (contactToEdit) => {
 
               {/* Buttons */}
               <div className="flex justify-between mt-4 px-2">
-                <button className="px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg shadow-md" onClick={() => handleEdit(contact)}>✏️ Edit</button>
-                <button className="px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg shadow-md" onClick={() => handleDelete(contact)}>🗑️ Delete</button>
+                <button className="px-4 py-2 bg-green-600 hover:bg-green-800 cursor-pointer text-white rounded-lg shadow-md" onClick={() => handleEdit(contact)}>✏️ Edit</button>
+                <button className="px-4 py-2 bg-red-600 hover:bg-red-800 cursor-pointer text-white rounded-lg shadow-md" onClick={() => handleDelete(contact)}>🗑️ Delete</button>
               </div>
             </div>
           ))
